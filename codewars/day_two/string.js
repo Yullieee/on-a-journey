@@ -3,7 +3,7 @@ function high(x){
     
     let result = '';
     let temp = 0;
-    let words = x.split(' '); //we create an array of the words inclued in x, be careful to use split(' ') to make an array of words and not just characters with split('')
+    let words = x.split(' '); //we create an array of the words included in x, be careful to use split(' ') to make an array of words and not just characters with split('')
     let alph = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
     for (let i = 0; i < words.length; i++) {
