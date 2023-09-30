@@ -1,8 +1,11 @@
 function isPrime(num) {                                         //yay we can use the function we previously made for this kata!! c:
 
-    if (num % 2 === 0 && num !== 2 ) { return false }
-    if (num <= 1) { return false }
-    if (num === 2) { return true }
+    if (num === 2) {
+        return true;
+    }
+    if (num < 2 || num % 2 === 0) {
+        return false;
+    }
 
     let limit = Math.sqrt(num)+1;
 
@@ -18,7 +21,7 @@ function primeFactors(n) {
 
     let result = "";
 
-    for (let i = 2; i <= n/2; i++) {                            //we go through every number ranged from 1 to the half of the given number
+    for (let i = 2; i <= n; i++) {
         if (isPrime(i) && n % i === 0) { //                     //we check if i is a prime and if it is we check if n can be divided by it
             let count = 0;
             while (n % i === 0) {                               //we initialize a while so that as long as i divided n we keep going and count each time it does
@@ -36,7 +39,7 @@ function primeFactors(n) {
 }
 
 
-const n = 544;
+const n = 84;
 console.log(primeFactors(n));
 
 
