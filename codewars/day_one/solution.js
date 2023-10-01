@@ -1,13 +1,13 @@
 function solution(str, ending) {
 
-    for (let i = 0; i < ending.length; i++) {
-      
-      if (ending[ending.length - 1 - i] !== str[str.length - 1 - i]) {
-        return false; 
-      }
+  for (let i = 0; i < ending.length; i++) {
+
+    if (ending[ending.length - 1 - i] !== str[str.length - 1 - i]) {
+      return false; 
     }
-    return true; 
   }
+  return true; 
+}
 
 console.log(solution('abcd','cd'));
 

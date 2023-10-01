@@ -1,27 +1,27 @@
 function is_it_unique(word,char) {
 
-    for (let k = 0 ; k < word.length ; k++) {
+  for (let k = 0 ; k < word.length ; k++) {
 
-        if (word[k].toLowerCase() === word[char].toLowerCase() && k !== char) {
-          return false;
-        }
+      if (word[k].toLowerCase() === word[char].toLowerCase() && k !== char) {
+        return false;
       }
-    return true;
-  }
+    }
+  return true;
+}
   
 function duplicateEncode(word){
 
-    let result = '';
+  let result = '';
 
-    for (let k = 0 ; k < word.length ; k++) {
+  for (let k = 0 ; k < word.length ; k++) {
 
-      if (is_it_unique(word,k)) {
-        result = result +'(';
-      } else {
-        result = result +')';
-      }
+    if (is_it_unique(word,k)) {
+      result = result +'(';
+    } else {
+       result = result +')';
     }
-    return result;
+  }
+  return result;
 }
 
 const word = "yummy chocolat!";
