@@ -1,8 +1,11 @@
 function chooseBestSum(t, k, ls) {
+
     let maxSum = null;                                          //var to stock the maximum sum found                                     
   
     function combination(index, count, sum) {                   //we make a sub function to go through each possible combinations of distances
+
       if (count === 0) {                                        //if count becomes 0, a combination is formed because it went through k indexes in ls
+        
         if (sum <= t && (maxSum === null || sum > maxSum)) {    //checks if the current sum is greater than maxSum and if it satisfies our request
           maxSum = sum;
         }

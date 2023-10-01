@@ -10,6 +10,7 @@ function isPrime(num) {                                         //yay we can use
     let limit = Math.sqrt(num)+1;
 
     for (let k = 3 ; k <= limit ; k+=2) {
+
         if (num % k === 0) { return false }
     }
     return true;
@@ -22,12 +23,16 @@ function primeFactors(n) {
     let result = "";
 
     for (let i = 2; i <= n; i++) {
-        if (isPrime(i) && n % i === 0) { //                     //we check if i is a prime and if it is we check if n can be divided by it
+
+        if (isPrime(i) && n % i === 0) {                        //we check if i is a prime and if it is we check if n can be divided by it
+
             let count = 0;
+
             while (n % i === 0) {                               //we initialize a while so that as long as i divided n we keep going and count each time it does
                 count += 1;
                 n /= i;
             }
+            
             if (count > 1) {
                 result = result + "(" + i + "**" + count + ")"; //count is actually the power of i
             } else { 

@@ -1,5 +1,7 @@
 function zeros(arr, start) {
+
     for (let i = start ; i < arr.length ; i++) {
+
         if (arr[i] !== '0') {
             return false;
         }
@@ -15,8 +17,11 @@ function expandedForm(num) {
     let result = '';
 
     for (let i = 0 ; i < arr.length ; i++) {
+
         if (arr[i] !== '0') {
+            
             result += arr[i] + '0'.repeat(arr.length-i-1);
+            
             if (i < arr.length - 1 && !zeros(arr,i+1)) {
                 result += ' + ';
             }

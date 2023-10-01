@@ -1,4 +1,5 @@
 function sumStrings(a, b) { 
+  
     let result = '';
 
     const A = parseInt(a, 10);      //we associate numbers from the given strings, note that parseInt has two arguments, a the string and 10 the base, here decimal

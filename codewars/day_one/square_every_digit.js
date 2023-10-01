@@ -1,4 +1,5 @@
 function squareDigits(num){
+    
     let str = num.toString();                    //we convert the given number into a string, for example 50 -> '50'
     let n = [];
 

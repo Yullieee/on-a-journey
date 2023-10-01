@@ -4,6 +4,7 @@ function disemvowel(str) {
   let new_str = new Array(str.length);
 
   for (let i = 0 ; i < str.length ; i++) {
+
     if (!vowels.includes(str[i])) {
       new_str[i] = str[i];
     }

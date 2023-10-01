@@ -1,17 +1,16 @@
-const arr = [[1,2]];
-console.log(arr[0]);
-console.log(arr[0][0]);
-
-
 function openOrSenior(data){
+
     let result = [];
+
     for (let k = 0 ; k < data.length ; k++) {
+
       if (data[k][0] >= 55 && data[k][1] > 7) {
         result.push('Senior');
       } else {
         result.push('Open');
       }
     }
+    
     return result;
   }
 

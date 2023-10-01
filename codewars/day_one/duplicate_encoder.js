@@ -1,5 +1,7 @@
 function is_it_unique(word,char) {
+
     for (let k = 0 ; k < word.length ; k++) {
+
         if (word[k].toLowerCase() === word[char].toLowerCase() && k !== char) {
           return false;
         }
@@ -8,9 +10,12 @@ function is_it_unique(word,char) {
   }
   
 function duplicateEncode(word){
+
     let result = '';
+
     for (let k = 0 ; k < word.length ; k++) {
-      if (isitunique(word,k)) {
+
+      if (is_it_unique(word,k)) {
         result = result +'(';
       } else {
         result = result +')';
