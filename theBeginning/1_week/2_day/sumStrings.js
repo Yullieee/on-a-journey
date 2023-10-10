@@ -21,3 +21,6 @@ console.log(sumStrings(a,b));
 
 //not precise with big numbers, i don't know how to resolve that yet :(
 //6.526731401310624e+76
+
+//gave up for now, will come back to it when i'm better!!!! >c<
+//silly idea but MAYBE use log ?

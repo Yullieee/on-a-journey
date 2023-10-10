@@ -15,5 +15,4 @@ const result = {
     return failureItems;
   }
   
-  
-  const failuresList = makeList(result.failure);
+const failuresList = makeList(result.failure);

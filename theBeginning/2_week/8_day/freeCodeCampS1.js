@@ -52,6 +52,7 @@ import * as stringFunctions from "./string_functions.js";
 // Only change code above this line
 
 uppercaseString("hello");
+
 lowercaseString("WORLD!");
 
 import subtract from "./math_functions.js";  //with the default export function

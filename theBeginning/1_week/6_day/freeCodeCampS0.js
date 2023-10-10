@@ -68,6 +68,7 @@ const half = ({max, min}) => (max + min) / 2.0;
 
 const half_bis = (stats) => (stats.min + stats.max) / 2.0;
 
+
 console.log(half(stats), half_bis(stats));
 
 
