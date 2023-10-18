@@ -2,7 +2,7 @@
 
 //this is a comment ^c^
 /* this is also
-a comment !! */
+a comment !!! */
 
 //Declare JavaScript Variables
 

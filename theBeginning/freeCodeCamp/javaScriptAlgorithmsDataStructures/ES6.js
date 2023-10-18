@@ -186,10 +186,10 @@ class Thermostat {
   }
 }
 
-const thermos = new Thermostat(76); // Setting in Fahrenheit scale
-let temp = thermos.temperature; // 24.44 in Celsius
+const thermos = new Thermostat(76);
+let temp = thermos.temperature;
 thermos.temperature = 26;
-temp = thermos.temperature; // 26 in Celsius
+temp = thermos.temperature;
 
 //Create a Module Script
 
