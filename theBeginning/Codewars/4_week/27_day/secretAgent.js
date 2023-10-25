@@ -96,7 +96,10 @@ function decrypt(password) {
  let thirdPart = '';
 
  for (let i = 0; i < str.length; i++) {
-   let index = (alphabet.indexOf(str[i]) - 1 + 26) % 26;
+   let index = (alphabet.indexOf(str[i]) - 1) % 26;
+   if (index < 0) {
+    index += 25;
+  }
    thirdPart += alphabet[index];
  }
 
