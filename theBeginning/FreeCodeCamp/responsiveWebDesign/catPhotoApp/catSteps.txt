@@ -1,13 +1,11 @@
 Step 1
 HTML elements have opening tags like <h1> and closing tags like </h1>.
 The text for an element goes between its opening and closing tags.
-
 Find the h1 element and change its text to: CatPhotoApp
 
 
 Step 2
 The h1 through h6 heading elements are used to signify the importance of content below them. The lower the number, the higher the importance, so h2 elements have less importance than h1 elements. Only use one h1 element per page and place lower importance headings below higher importance headings.
-
 Below the h1 element, add an h2 element with this text: Cat Photos
 
 
@@ -18,19 +16,16 @@ Create a p element below your h2 element and give it the following text: See mor
 
 Step 4
 Commenting allows you to leave messages without affecting the browser display. It also allows you to make code inactive. A comment in HTML starts with, contains any number of lines of text, and ends with. For example, the comment  TODO: Remove h1 contains the text TODO: Remove h1.
-
 Add a comment above the p element with this text: TODO: Add link to cat photos
 
 
 Step 5
 HTML5 has some elements that identify different content areas. These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility.
-
 Identify the main section of this page by adding a <main> opening tag before the h1 element, and a </main> closing tag after the p
 
 
 Step 6
 In the previous step, you put the h1, h2, comment, and p elements inside the main element. This is called nesting. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation and it is used to make HTML easier to read.
-
 The h1 element, h2 element and the comment are indented two spaces more than the main element in the code below. Use the space bar on your keyboard to add two more spaces in front of the p element so that it is indented properly as well.
 
 
@@ -43,7 +38,6 @@ The h1 element, h2 element and the comment are indented two spaces more than the
 
 Step 7
 You can add images to your website by using the img element. img elements have an opening tag without a closing tag. A tag for an element without a closing tag is known as a self-closing tag.
-
 Add an img element below the p element. At this point, no image will show up in the browser.
 
 
