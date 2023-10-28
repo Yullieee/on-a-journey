@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cce0ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #b3ccff;
+}
+
+#survey-form {
+  background-color: #b3ccff;
+  border-radius: px;
+  padding: 40px;
+  max-width: 500px;
+}
+
+#title {
+  text-align: center;
+  color: #003366;
+}
+
+#description {
+  text-align: center;
+  color: #003366;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #99b3e6;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: flex;
+  margin-bottom: 5px;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.5rem;
+    min-height: 1rem;
+    min-width: 1rem;
+}
+
+label[for="recommendation"],
+label[for="improve"] {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+#submit {
+  background-color: #004080;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #003366;
+}
+
+#number-label {
+  font-size: 0.8em;
+  color: #667799;
+}
+
+textarea {
+  margin-top: 5px;
+}
+
+textarea::placeholder {
+  color: #667799;
+}
+
+select {
+  padding: 8px;
+}
+
+legend {
+  font-weight: bold;
+  color: #003366;
+}
