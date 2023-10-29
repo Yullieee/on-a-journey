@@ -68,6 +68,12 @@ input[type="checkbox"] {
     min-width: 1rem;
 }
 
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
 label[for="recommendation"],
 label[for="improve"] {
   margin-bottom: 30px;

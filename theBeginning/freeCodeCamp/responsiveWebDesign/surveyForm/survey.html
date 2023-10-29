@@ -43,16 +43,20 @@
 
         <label for="recommendation" id="recommendation">
           Would you recommend freeCodeCamp to a friend?
-          <input id="definitely" type="radio" name="recommendation" value="yes" class="input-radio" checked/>Definitely
-          <input id="maybe" type="radio" name="recommendation" value="maybe" class="input-radio" />Maybe
-          <input id="no" type="radio" name="recommendation" value="no" class="input-radio"/>Not sure
+          <div class="parent">
+            <input id="definitely" type="radio" name="recommendation" value="yes" class="input-radio" checked/>Definitely
+            <input id="maybe" type="radio" name="recommendation" value="maybe" class="input-radio" />Maybe
+            <input id="no" type="radio" name="recommendation" value="no" class="input-radio"/>Not sure
+          </div>
         </label>
 
         <label for="improve" id="improve">
           What would you like to see improved? (Check all that apply)
-          <input type="checkbox" value="front-end" class="input-checkbox"/>Front-end Projects
-          <input type="checkbox" value="back-end" class="input-checkbox" />Back-end Projects
-          <input type="checkbox" value="videos" class="input-checkbox"/>Videos
+          <div class="parent">
+            <input type="checkbox" value="front-end" class="input-checkbox"/>Front-end Projects
+            <input type="checkbox" value="back-end" class="input-checkbox" />Back-end Projects
+            <input type="checkbox" value="videos" class="input-checkbox"/>Videos
+          </div>
         </label>
 
         <label for="comments" id="comments">
